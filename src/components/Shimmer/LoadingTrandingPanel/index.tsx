@@ -6,12 +6,12 @@ import { Container } from './styles';
 const LoadingTrandingPanel: React.FC = () => {
   const Row = () => (
     <div className='row'>
-      <Skeleton className='square-skeleton white' />
+      <Skeleton className='square-skeleton white-color' />
 
       <div className='column'>
-        <Skeleton className='row-skeleton white' />
+        <Skeleton className='row-skeleton white-color' />
 
-        <Skeleton className='row-skeleton white' />
+        <Skeleton className='row-skeleton white-color' />
       </div>
     </div>
   );
