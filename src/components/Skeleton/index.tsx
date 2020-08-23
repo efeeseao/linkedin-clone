@@ -18,7 +18,7 @@ export default styled.div`
     }
   }
 
-  &.white {
+  &.white-color {
     background-image: linear-gradient(-90deg, #fff 0%, #e7edf1 50%, #fff 100%);
   }
 `;
